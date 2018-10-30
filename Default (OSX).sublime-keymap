@@ -1,0 +1,8 @@
+// MACOS Sublime keybindings
+[
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+	{ "keys": ["super+7"],"command": "toggle_comment", "args": {"block": false} }, 
+	{ "keys": ["shift+super+7"],"command": "toggle_comment", "args": {"block": true}}
+]
