@@ -1,0 +1,29 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "cmd+alt+left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "cmd+alt+right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "cmd+7",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+7",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+]
